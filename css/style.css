@@ -1,0 +1,37 @@
+html{
+    background-color: bisque;
+}
+
+p{
+    color: rgb(32, 22, 24);
+    font-size: 24px;
+    /* font-family: monospace; */
+}
+
+iframe{
+    width: 530px;
+    height: 315px;
+}
+.italic_text{
+    font-style: italic;
+}
+#logo{
+    height:150px;
+}
+img{
+    height: 650px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+nav > a {
+    background-color: darkgrey;
+}
+
+h1, section > p{
+    background-color: blueviolet;
+    color: white;
+}
