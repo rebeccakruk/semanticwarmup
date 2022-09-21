@@ -2,6 +2,10 @@ html{
     background-color: bisque;
 }
 
+a{
+    font-size: 30px;
+}
+
 p{
     color: rgb(32, 22, 24);
     font-size: 24px;
@@ -15,11 +19,18 @@ iframe{
 .italic_text{
     font-style: italic;
 }
+p:not(.italic_text){
+    font-weight: bold;
+}
+
+h1.italic_text{
+    font-style: italic;
+}
 #logo{
     height:150px;
 }
 img{
-    height: 650px;
+    height: 300px;
 }
 
 
@@ -34,4 +45,31 @@ nav > a {
 h1, section > p{
     background-color: blueviolet;
     color: white;
+}
+img ~ p {
+    border-width: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+p:hover{
+    color: rgb(8, 21, 160);
+    border: dashed 3px lime;
+}
+#myimportantone{
+    color: black;
+}
+p:active{
+    font-size: 30px;
+}
+img:active{
+    height: 500;
+}
+a:link{
+    color: rgb(21, 175, 42);
+}
+a:visited{
+    color:rgb(21, 175, 42);
+}
+a:nth-of-type(2){
+    border: solid 3px red;
 }
